@@ -8,3 +8,9 @@ let lionMoney = {
   재혁: 2800,
   동재: 50000,
 };
+
+let sum = 0;
+for (let key in lionMoney) {
+  sum += lionMoney[key];
+}
+alert (sum); 
